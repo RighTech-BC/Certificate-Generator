@@ -1,0 +1,10 @@
+E:\CertificateCreator\CertificateCreator\bin\Release\CertificateCreator.exe.config
+E:\CertificateCreator\CertificateCreator\bin\Release\CertificateCreator.exe
+E:\CertificateCreator\CertificateCreator\bin\Release\CertificateCreator.pdb
+E:\CertificateCreator\CertificateCreator\obj\Release\CertificateCreator.csproj.AssemblyReference.cache
+E:\CertificateCreator\CertificateCreator\obj\Release\CertificateCreator.CC.resources
+E:\CertificateCreator\CertificateCreator\obj\Release\CertificateCreator.Properties.Resources.resources
+E:\CertificateCreator\CertificateCreator\obj\Release\CertificateCreator.csproj.GenerateResource.cache
+E:\CertificateCreator\CertificateCreator\obj\Release\CertificateCreator.csproj.CoreCompileInputs.cache
+E:\CertificateCreator\CertificateCreator\obj\Release\CertificateCreator.exe
+E:\CertificateCreator\CertificateCreator\obj\Release\CertificateCreator.pdb

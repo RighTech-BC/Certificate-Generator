@@ -60,11 +60,8 @@
             this.txt_CSR_OrganizationName = new View.SpTextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.txt_CSR_OrganizationUnitName = new View.SpTextBox();
-            this.label23 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
             this.txt_CSR_CommonName = new View.SpTextBox();
-            this.label21 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
@@ -72,10 +69,9 @@
             this.label24 = new System.Windows.Forms.Label();
             this.txt_CSR_State = new View.SpTextBox();
             this.txt_CSR_City = new View.SpTextBox();
-            this.txt_CSR_Email = new View.SpTextBox();
-            this.txt_CSR_Password = new View.SpTextBox();
-            this.txt_CSR_OptionalCompanyName = new View.SpTextBox();
             this.label18 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.txt_CSR_Email = new View.SpTextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txt_CSR_Path = new View.SpTextBox();
             this.btn_CSR_PathBrowse = new View.SpButton();
@@ -184,7 +180,7 @@
             this.tlp_Body.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 10F));
             this.tlp_Body.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 62F));
             this.tlp_Body.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 10F));
-            this.tlp_Body.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 227F));
+            this.tlp_Body.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 196F));
             this.tlp_Body.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 10F));
             this.tlp_Body.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 91F));
             this.tlp_Body.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 10F));
@@ -192,14 +188,14 @@
             this.tlp_Body.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 10F));
             this.tlp_Body.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 91F));
             this.tlp_Body.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tlp_Body.Size = new System.Drawing.Size(804, 615);
+            this.tlp_Body.Size = new System.Drawing.Size(804, 585);
             this.tlp_Body.TabIndex = 1;
             // 
             // gp_PKCS12
             // 
             this.gp_PKCS12.Controls.Add(this.tableLayoutPanel1);
             this.gp_PKCS12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gp_PKCS12.Location = new System.Drawing.Point(3, 524);
+            this.gp_PKCS12.Location = new System.Drawing.Point(3, 493);
             this.gp_PKCS12.Name = "gp_PKCS12";
             this.gp_PKCS12.Size = new System.Drawing.Size(798, 85);
             this.gp_PKCS12.TabIndex = 5;
@@ -530,7 +526,7 @@
             this.gp_CSR.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gp_CSR.Location = new System.Drawing.Point(3, 85);
             this.gp_CSR.Name = "gp_CSR";
-            this.gp_CSR.Size = new System.Drawing.Size(798, 221);
+            this.gp_CSR.Size = new System.Drawing.Size(798, 190);
             this.gp_CSR.TabIndex = 5;
             this.gp_CSR.TabStop = false;
             this.gp_CSR.Text = "Generate CSR";
@@ -546,7 +542,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 10F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 115F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 117F));
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel4, 0, 2);
             this.tableLayoutPanel3.Controls.Add(this.label5, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.txt_CSR_Path, 1, 0);
@@ -562,7 +558,7 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 10F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(792, 197);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(792, 166);
             this.tableLayoutPanel3.TabIndex = 7;
             // 
             // tableLayoutPanel4
@@ -578,11 +574,8 @@
             this.tableLayoutPanel4.Controls.Add(this.txt_CSR_OrganizationName, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.label19, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.txt_CSR_OrganizationUnitName, 1, 1);
-            this.tableLayoutPanel4.Controls.Add(this.label23, 0, 3);
             this.tableLayoutPanel4.Controls.Add(this.label20, 0, 2);
-            this.tableLayoutPanel4.Controls.Add(this.label22, 3, 4);
             this.tableLayoutPanel4.Controls.Add(this.txt_CSR_CommonName, 1, 2);
-            this.tableLayoutPanel4.Controls.Add(this.label21, 3, 3);
             this.tableLayoutPanel4.Controls.Add(this.label15, 3, 0);
             this.tableLayoutPanel4.Controls.Add(this.label17, 3, 2);
             this.tableLayoutPanel4.Controls.Add(this.label16, 3, 1);
@@ -590,21 +583,19 @@
             this.tableLayoutPanel4.Controls.Add(this.label24, 5, 0);
             this.tableLayoutPanel4.Controls.Add(this.txt_CSR_State, 4, 1);
             this.tableLayoutPanel4.Controls.Add(this.txt_CSR_City, 4, 2);
-            this.tableLayoutPanel4.Controls.Add(this.txt_CSR_Email, 4, 3);
-            this.tableLayoutPanel4.Controls.Add(this.txt_CSR_Password, 4, 4);
-            this.tableLayoutPanel4.Controls.Add(this.txt_CSR_OptionalCompanyName, 1, 3);
             this.tableLayoutPanel4.Controls.Add(this.label18, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.label21, 0, 3);
+            this.tableLayoutPanel4.Controls.Add(this.txt_CSR_Email, 1, 3);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 43);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 6;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel4.RowCount = 5;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(786, 151);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(786, 120);
             this.tableLayoutPanel4.TabIndex = 7;
             // 
             // txt_CSR_OrganizationName
@@ -643,18 +634,6 @@
             this.txt_CSR_OrganizationUnitName.ValidationMessage = "";
             this.txt_CSR_OrganizationUnitName.ValidationMode = View.ValidationMode.None;
             // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label23.Location = new System.Drawing.Point(1, 91);
-            this.label23.Margin = new System.Windows.Forms.Padding(1);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(245, 28);
-            this.label23.TabIndex = 4;
-            this.label23.Text = "Optional Company Name :";
-            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // label20
             // 
             this.label20.AutoSize = true;
@@ -667,18 +646,6 @@
             this.label20.Text = "Common Name (FQDN - Your Name) :";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label22.Location = new System.Drawing.Point(458, 121);
-            this.label22.Margin = new System.Windows.Forms.Padding(1);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(138, 28);
-            this.label22.TabIndex = 4;
-            this.label22.Text = "Password :";
-            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // txt_CSR_CommonName
             // 
             this.txt_CSR_CommonName.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -690,18 +657,6 @@
             this.txt_CSR_CommonName.TabIndex = 2;
             this.txt_CSR_CommonName.ValidationMessage = "";
             this.txt_CSR_CommonName.ValidationMode = View.ValidationMode.None;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label21.Location = new System.Drawing.Point(458, 91);
-            this.label21.Margin = new System.Windows.Forms.Padding(1);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(138, 28);
-            this.label21.TabIndex = 4;
-            this.label21.Text = "Email :";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label15
             // 
@@ -789,44 +744,6 @@
             this.txt_CSR_City.ValidationMessage = "";
             this.txt_CSR_City.ValidationMode = View.ValidationMode.None;
             // 
-            // txt_CSR_Email
-            // 
-            this.tableLayoutPanel4.SetColumnSpan(this.txt_CSR_Email, 2);
-            this.txt_CSR_Email.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txt_CSR_Email.Is_Numeric = false;
-            this.txt_CSR_Email.Location = new System.Drawing.Point(600, 93);
-            this.txt_CSR_Email.MaxChar = 1000;
-            this.txt_CSR_Email.Name = "txt_CSR_Email";
-            this.txt_CSR_Email.Size = new System.Drawing.Size(183, 25);
-            this.txt_CSR_Email.TabIndex = 2;
-            this.txt_CSR_Email.ValidationMessage = "";
-            this.txt_CSR_Email.ValidationMode = View.ValidationMode.None;
-            // 
-            // txt_CSR_Password
-            // 
-            this.tableLayoutPanel4.SetColumnSpan(this.txt_CSR_Password, 2);
-            this.txt_CSR_Password.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txt_CSR_Password.Is_Numeric = false;
-            this.txt_CSR_Password.Location = new System.Drawing.Point(600, 123);
-            this.txt_CSR_Password.MaxChar = 20;
-            this.txt_CSR_Password.Name = "txt_CSR_Password";
-            this.txt_CSR_Password.Size = new System.Drawing.Size(183, 25);
-            this.txt_CSR_Password.TabIndex = 2;
-            this.txt_CSR_Password.ValidationMessage = "";
-            this.txt_CSR_Password.ValidationMode = View.ValidationMode.None;
-            // 
-            // txt_CSR_OptionalCompanyName
-            // 
-            this.txt_CSR_OptionalCompanyName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txt_CSR_OptionalCompanyName.Is_Numeric = false;
-            this.txt_CSR_OptionalCompanyName.Location = new System.Drawing.Point(250, 93);
-            this.txt_CSR_OptionalCompanyName.MaxChar = 1000;
-            this.txt_CSR_OptionalCompanyName.Name = "txt_CSR_OptionalCompanyName";
-            this.txt_CSR_OptionalCompanyName.Size = new System.Drawing.Size(194, 25);
-            this.txt_CSR_OptionalCompanyName.TabIndex = 2;
-            this.txt_CSR_OptionalCompanyName.ValidationMessage = "";
-            this.txt_CSR_OptionalCompanyName.ValidationMode = View.ValidationMode.None;
-            // 
             // label18
             // 
             this.label18.AutoSize = true;
@@ -838,6 +755,30 @@
             this.label18.TabIndex = 4;
             this.label18.Text = "Organization Name (Company) :";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label21.Location = new System.Drawing.Point(1, 91);
+            this.label21.Margin = new System.Windows.Forms.Padding(1);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(245, 28);
+            this.label21.TabIndex = 4;
+            this.label21.Text = "Email :";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // txt_CSR_Email
+            // 
+            this.txt_CSR_Email.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txt_CSR_Email.Is_Numeric = false;
+            this.txt_CSR_Email.Location = new System.Drawing.Point(250, 93);
+            this.txt_CSR_Email.MaxChar = 1000;
+            this.txt_CSR_Email.Name = "txt_CSR_Email";
+            this.txt_CSR_Email.Size = new System.Drawing.Size(194, 25);
+            this.txt_CSR_Email.TabIndex = 2;
+            this.txt_CSR_Email.ValidationMessage = "";
+            this.txt_CSR_Email.ValidationMode = View.ValidationMode.None;
             // 
             // label5
             // 
@@ -859,7 +800,7 @@
             this.txt_CSR_Path.MaxChar = 1000;
             this.txt_CSR_Path.Name = "txt_CSR_Path";
             this.txt_CSR_Path.ReadOnly = true;
-            this.txt_CSR_Path.Size = new System.Drawing.Size(172, 25);
+            this.txt_CSR_Path.Size = new System.Drawing.Size(171, 25);
             this.txt_CSR_Path.TabIndex = 2;
             this.txt_CSR_Path.ValidationMessage = "Destination path not set";
             this.txt_CSR_Path.ValidationMode = View.ValidationMode.NullOrEmpty;
@@ -870,7 +811,7 @@
             this.btn_CSR_PathBrowse.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_CSR_PathBrowse.FileName = "CSR";
             this.btn_CSR_PathBrowse.Format = "csr";
-            this.btn_CSR_PathBrowse.Location = new System.Drawing.Point(257, 1);
+            this.btn_CSR_PathBrowse.Location = new System.Drawing.Point(256, 1);
             this.btn_CSR_PathBrowse.Margin = new System.Windows.Forms.Padding(1);
             this.btn_CSR_PathBrowse.Name = "btn_CSR_PathBrowse";
             this.btn_CSR_PathBrowse.Size = new System.Drawing.Size(73, 28);
@@ -885,10 +826,10 @@
             this.btn_CSR_Generate.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_CSR_Generate.FileName = "";
             this.btn_CSR_Generate.Format = "";
-            this.btn_CSR_Generate.Location = new System.Drawing.Point(677, 1);
+            this.btn_CSR_Generate.Location = new System.Drawing.Point(675, 1);
             this.btn_CSR_Generate.Margin = new System.Windows.Forms.Padding(1);
             this.btn_CSR_Generate.Name = "btn_CSR_Generate";
-            this.btn_CSR_Generate.Size = new System.Drawing.Size(114, 28);
+            this.btn_CSR_Generate.Size = new System.Drawing.Size(116, 28);
             this.btn_CSR_Generate.TabIndex = 3;
             this.btn_CSR_Generate.Text = "Generate";
             this.btn_CSR_Generate.UseVisualStyleBackColor = true;
@@ -900,7 +841,7 @@
             this.btn_CSR_KeyPathBrowse.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_CSR_KeyPathBrowse.FileName = "Key";
             this.btn_CSR_KeyPathBrowse.Format = "Key";
-            this.btn_CSR_KeyPathBrowse.Location = new System.Drawing.Point(592, 1);
+            this.btn_CSR_KeyPathBrowse.Location = new System.Drawing.Point(590, 1);
             this.btn_CSR_KeyPathBrowse.Margin = new System.Windows.Forms.Padding(1);
             this.btn_CSR_KeyPathBrowse.Name = "btn_CSR_KeyPathBrowse";
             this.btn_CSR_KeyPathBrowse.Size = new System.Drawing.Size(73, 28);
@@ -913,11 +854,11 @@
             // 
             this.txt_CSR_KeyPath.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txt_CSR_KeyPath.Is_Numeric = false;
-            this.txt_CSR_KeyPath.Location = new System.Drawing.Point(416, 3);
+            this.txt_CSR_KeyPath.Location = new System.Drawing.Point(415, 3);
             this.txt_CSR_KeyPath.MaxChar = 1000;
             this.txt_CSR_KeyPath.Name = "txt_CSR_KeyPath";
             this.txt_CSR_KeyPath.ReadOnly = true;
-            this.txt_CSR_KeyPath.Size = new System.Drawing.Size(172, 25);
+            this.txt_CSR_KeyPath.Size = new System.Drawing.Size(171, 25);
             this.txt_CSR_KeyPath.TabIndex = 2;
             this.txt_CSR_KeyPath.ValidationMessage = "Key is not selected or does not exist";
             this.txt_CSR_KeyPath.ValidationMode = View.ValidationMode.NullOrEmptyAndExist;
@@ -926,7 +867,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label4.Location = new System.Drawing.Point(342, 1);
+            this.label4.Location = new System.Drawing.Point(341, 1);
             this.label4.Margin = new System.Windows.Forms.Padding(1);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(70, 28);
@@ -938,7 +879,7 @@
             // 
             this.gp_X509.Controls.Add(this.tableLayoutPanel5);
             this.gp_X509.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gp_X509.Location = new System.Drawing.Point(3, 322);
+            this.gp_X509.Location = new System.Drawing.Point(3, 291);
             this.gp_X509.Name = "gp_X509";
             this.gp_X509.Size = new System.Drawing.Size(798, 85);
             this.gp_X509.TabIndex = 5;
@@ -1144,7 +1085,7 @@
             // 
             this.gp_X509CA.Controls.Add(this.tableLayoutPanel6);
             this.gp_X509CA.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gp_X509CA.Location = new System.Drawing.Point(3, 423);
+            this.gp_X509CA.Location = new System.Drawing.Point(3, 392);
             this.gp_X509CA.Name = "gp_X509CA";
             this.gp_X509CA.Size = new System.Drawing.Size(798, 85);
             this.gp_X509CA.TabIndex = 5;
@@ -1405,7 +1346,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Black;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(4, 313);
+            this.panel2.Location = new System.Drawing.Point(4, 282);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(796, 2);
@@ -1415,7 +1356,7 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.Black;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(4, 414);
+            this.panel3.Location = new System.Drawing.Point(4, 383);
             this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(796, 2);
@@ -1425,7 +1366,7 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.Black;
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(4, 515);
+            this.panel4.Location = new System.Drawing.Point(4, 484);
             this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(796, 2);
@@ -1446,7 +1387,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(814, 651);
+            this.ClientSize = new System.Drawing.Size(814, 621);
             this.Controls.Add(this.tlp_Body);
             this.Controls.Add(this.tlp_Header);
             this.Font = new System.Drawing.Font("Segoe UI", 10F);
@@ -1534,10 +1475,6 @@
         private System.Windows.Forms.Label label20;
         private View.SpTextBox txt_CSR_Email;
         private System.Windows.Forms.Label label21;
-        private View.SpTextBox txt_CSR_Password;
-        private System.Windows.Forms.Label label22;
-        private View.SpTextBox txt_CSR_OptionalCompanyName;
-        private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
         private View.SpTextBox txt_PKCS12_Path;
         private View.SpTextBox txt_PKCS12_KeyPath;
