@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A2950181-6B44-431D-8C23-B669790BB9E1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CertificateCreator</RootNamespace>
-    <AssemblyName>CertificateCreator</AssemblyName>
+    <RootNamespace>CertificateGenerator</RootNamespace>
+    <AssemblyName>CertificateGenerator</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <LangVersion>9.0</LangVersion>
     <FileAlignment>512</FileAlignment>
@@ -82,6 +82,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

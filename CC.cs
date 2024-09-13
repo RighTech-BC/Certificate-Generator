@@ -3,7 +3,7 @@ using ProcessManager;
 using System;
 using System.Windows.Forms;
 
-namespace CertificateCreator
+namespace CertificateGenerator
 {
     public partial class CC : Form
     {

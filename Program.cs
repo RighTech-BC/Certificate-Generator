@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace CertificateCreator
+namespace CertificateGenerator
 {
     internal static class Program
     {

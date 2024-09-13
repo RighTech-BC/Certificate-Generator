@@ -1,4 +1,4 @@
-﻿namespace CertificateCreator
+﻿namespace CertificateGenerator
 {
     partial class CC
     {

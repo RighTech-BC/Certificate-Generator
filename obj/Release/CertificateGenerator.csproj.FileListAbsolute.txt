@@ -1,0 +1,10 @@
+E:\CertificateGenerator\CertificateGenerator\bin\Release\CertificateGenerator.exe.config
+E:\CertificateGenerator\CertificateGenerator\bin\Release\CertificateGenerator.exe
+E:\CertificateGenerator\CertificateGenerator\bin\Release\CertificateGenerator.pdb
+E:\CertificateGenerator\CertificateGenerator\obj\Release\CertificateGenerator.csproj.AssemblyReference.cache
+E:\CertificateGenerator\CertificateGenerator\obj\Release\CertificateGenerator.CC.resources
+E:\CertificateGenerator\CertificateGenerator\obj\Release\CertificateGenerator.Properties.Resources.resources
+E:\CertificateGenerator\CertificateGenerator\obj\Release\CertificateGenerator.csproj.GenerateResource.cache
+E:\CertificateGenerator\CertificateGenerator\obj\Release\CertificateGenerator.csproj.CoreCompileInputs.cache
+E:\CertificateGenerator\CertificateGenerator\obj\Release\CertificateGenerator.exe
+E:\CertificateGenerator\CertificateGenerator\obj\Release\CertificateGenerator.pdb
