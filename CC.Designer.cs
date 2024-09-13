@@ -542,7 +542,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 10F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 117F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 118F));
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel4, 0, 2);
             this.tableLayoutPanel3.Controls.Add(this.label5, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.txt_CSR_Path, 1, 0);
@@ -826,10 +826,10 @@
             this.btn_CSR_Generate.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_CSR_Generate.FileName = "";
             this.btn_CSR_Generate.Format = "";
-            this.btn_CSR_Generate.Location = new System.Drawing.Point(675, 1);
+            this.btn_CSR_Generate.Location = new System.Drawing.Point(674, 1);
             this.btn_CSR_Generate.Margin = new System.Windows.Forms.Padding(1);
             this.btn_CSR_Generate.Name = "btn_CSR_Generate";
-            this.btn_CSR_Generate.Size = new System.Drawing.Size(116, 28);
+            this.btn_CSR_Generate.Size = new System.Drawing.Size(117, 28);
             this.btn_CSR_Generate.TabIndex = 3;
             this.btn_CSR_Generate.Text = "Generate";
             this.btn_CSR_Generate.UseVisualStyleBackColor = true;
@@ -841,7 +841,7 @@
             this.btn_CSR_KeyPathBrowse.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_CSR_KeyPathBrowse.FileName = "Key";
             this.btn_CSR_KeyPathBrowse.Format = "Key";
-            this.btn_CSR_KeyPathBrowse.Location = new System.Drawing.Point(590, 1);
+            this.btn_CSR_KeyPathBrowse.Location = new System.Drawing.Point(589, 1);
             this.btn_CSR_KeyPathBrowse.Margin = new System.Windows.Forms.Padding(1);
             this.btn_CSR_KeyPathBrowse.Name = "btn_CSR_KeyPathBrowse";
             this.btn_CSR_KeyPathBrowse.Size = new System.Drawing.Size(73, 28);
@@ -858,7 +858,7 @@
             this.txt_CSR_KeyPath.MaxChar = 1000;
             this.txt_CSR_KeyPath.Name = "txt_CSR_KeyPath";
             this.txt_CSR_KeyPath.ReadOnly = true;
-            this.txt_CSR_KeyPath.Size = new System.Drawing.Size(171, 25);
+            this.txt_CSR_KeyPath.Size = new System.Drawing.Size(170, 25);
             this.txt_CSR_KeyPath.TabIndex = 2;
             this.txt_CSR_KeyPath.ValidationMessage = "Key is not selected or does not exist";
             this.txt_CSR_KeyPath.ValidationMode = View.ValidationMode.NullOrEmptyAndExist;
@@ -1396,7 +1396,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CC";
             this.Padding = new System.Windows.Forms.Padding(5);
-            this.Text = "Certificate Creator";
+            this.Text = "Certificate Generator";
             this.tlp_Header.ResumeLayout(false);
             this.tlp_Header.PerformLayout();
             this.tlp_Body.ResumeLayout(false);

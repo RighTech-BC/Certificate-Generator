@@ -8,3 +8,13 @@ E:\CertificateCreator\CertificateCreator\obj\Release\CertificateCreator.csproj.G
 E:\CertificateCreator\CertificateCreator\obj\Release\CertificateCreator.csproj.CoreCompileInputs.cache
 E:\CertificateCreator\CertificateCreator\obj\Release\CertificateCreator.exe
 E:\CertificateCreator\CertificateCreator\obj\Release\CertificateCreator.pdb
+E:\CertificateGenerator\CertificateGenerator\bin\Release\CertificateCreator.exe.config
+E:\CertificateGenerator\CertificateGenerator\bin\Release\CertificateCreator.exe
+E:\CertificateGenerator\CertificateGenerator\bin\Release\CertificateCreator.pdb
+E:\CertificateGenerator\CertificateGenerator\obj\Release\CertificateCreator.csproj.AssemblyReference.cache
+E:\CertificateGenerator\CertificateGenerator\obj\Release\CertificateCreator.CC.resources
+E:\CertificateGenerator\CertificateGenerator\obj\Release\CertificateCreator.Properties.Resources.resources
+E:\CertificateGenerator\CertificateGenerator\obj\Release\CertificateCreator.csproj.GenerateResource.cache
+E:\CertificateGenerator\CertificateGenerator\obj\Release\CertificateCreator.csproj.CoreCompileInputs.cache
+E:\CertificateGenerator\CertificateGenerator\obj\Release\CertificateCreator.exe
+E:\CertificateGenerator\CertificateGenerator\obj\Release\CertificateCreator.pdb
